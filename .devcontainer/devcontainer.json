@@ -1,0 +1,31 @@
+{
+    "name": "React frontend",
+    "image": "react-frontend:latest",
+    "context": "..",
+    "service": "web",
+    "dockerComposeFile": "../docker-compose.yml",
+    "workspaceFolder": "/app",
+    "workspaceMount": "source=${localWorkspaceFolder}/workspace,target=/app,type=bind,consistency=delegated",
+    "settings": {
+      "terminal.integrated.defaultProfile.linux": "bash"
+    },
+    "extensions": [
+      "ms-azuretools.vscode-docker",
+      "TabNine.tabnine-vscode",
+      "usernamehw.errorlens",
+      "eamodio.gitlens",
+      "adpyke.codesnap",
+      "Gruntfuggly.todo-tree",
+      "pflannery.vscode-versionlens",
+      "formulahendry.auto-close-tag",
+      "steoates.autoimport",
+      "formulahendry.auto-rename-tag",
+      "pmneo.tsimporter",
+      "quicktype.quicktype",
+      "pmneo.tsimporter",
+      "aaron-bond.better-comments",
+      "dbaeumer.vscode-eslint",
+      "Mustidev.react-snippets",
+      "styled-components.vscode-styled-components"
+    ]
+}
