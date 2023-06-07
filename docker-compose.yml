@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  web:
+    build:
+      context: .
+    image: react-frontend:latest
+    container_name: react-frontend
+    volumes: 
+      - ./workspace:/app
+    ports:
+      - 3000:3000
